@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    background-color: #55557e;
+    height: 100%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    height: 70%;
+    width: 30%;
+    margin-top: 5rem;
+}
+.top {
+    display: flex;
+    width: 99%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.small {
+    height: 3.5rem;
+    width: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d3e52;
+    cursor: pointer;
+}
+.small:hover {
+    background-color: #252525;
+}
+.big {
+    height: 100%;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box {
+    height: 23rem;
+    width: 75%;
+    margin: 1rem auto;
+    background-color: azure;
+    border-radius: 3px;
+    display: grid;
+    grid-template-rows: 40%;
+}
+.background {
+    background-image: url("./media/food.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    padding-left: 1rem;
+    padding-top: 5rem;
+}
+.background p {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.background img {
+    scale: 0.7;
+    position: relative;
+    top: 0.2rem;
+}
+.background span {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.list {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(184, 184, 184);
+    border-bottom: 0.5px solid rgb(194, 194, 194);
+}
+.price {
+    flex-grow: 1;
+    text-align: end;
+}
+.price:hover {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
